@@ -35,7 +35,7 @@
             <a href="index.html" class="nav-link">HOME</a>
           </li>
           <li class="nav-item">
-            <a href="gallery.html" class="nav-link">GALLERY</a>
+            <a href="gallery2.html" class="nav-link">GALLERY</a>
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-link">CONTACT</a>
@@ -46,47 +46,59 @@
   	</nav>
 
 
-<section id="formSection" class="px-6">
-      <div style="margin-left: 20px;">
-      <h4>Feel free to send me a message regarding any potential assignments</h4>
-      <br>
-      <label>
-      <span class="text-danger">*</span> <em>INDICATES REQUIRED FIELD</em>
-      </label>
-      <br>
-      <br>
-      <div class="contactForm">
-      <form method="post" action="confirmation.php">
-          <div class="form-group">
-              
-              <label for="firstName">NAME: FIRST AND LAST <span class="text-danger">*</span></label>
-              <div class="row">
-              <div class="col-sm-4">
-                  <input type="text" class="form-control id="firstName" placeholder="First" size="10" name="firstName">
-              </div>
-              <div class="col-sm-4">
-                  <input type="text" class="form-control id="lastName" placeholder="Last" size="10" name="lastName"> 
-              </div>
-              </div>
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+              <section id="formSection" class="px-6">
+                  <div style="margin-left: 20px;">
+                  <h4>Feel free to send me a message regarding any potential assignments</h4>
+                  <br>
+                  <label>
+                  <span class="text-danger">*</span> <em>INDICATES REQUIRED FIELD</em>
+                  </label>
+                  <br>
+                  <br>
+                  <div class="contactForm">
+                  <form method="post" action="confirmation.php">
+                      <div class="form-group">
+                          
+                          <label for="firstName">NAME: FIRST AND LAST <span class="text-danger">*</span></label>
+                          <div class="row">
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control id="firstName" placeholder="First" size="10" name="firstName">
+                          </div>
+                          <div class="col-sm-4">
+                              <input type="text" class="form-control id="lastName" placeholder="Last" size="10" name="lastName"> 
+                          </div>
+                          </div>
+                      </div>
+                      
+
+                      <div class="form-group">
+                            <label for="yourEmail">EMAIL <span class="text-danger"> *</span></label>
+                          <input type="email" class="form-control" id="yourEmail" aria-describedby="emailHelp" placeholder="Enter email" size="5" name="yourEmail">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="message">MESSAGE <span class="text-danger"> *</span></label>
+                        <textarea class="form-control" id="message" rows="5" name="message"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-danger">Submit</button>
+                  </form>
+                  </div>
+                  </div>
+
+
+            </section>
           </div>
-          
-
-          <div class="form-group">
-                <label for="yourEmail">EMAIL <span class="text-danger"> *</span></label>
-               <input type="email" class="form-control" id="yourEmail" aria-describedby="emailHelp" placeholder="Enter email" size="5" name="yourEmail">
+          <div class="col-lg-6">
+            <img src="images/image1rev.png" alt="" class="img-fluid">
           </div>
-
-          <div class="form-group">
-            <label for="message">MESSAGE <span class="text-danger"> *</span></label>
-            <textarea class="form-control" id="message" rows="5" name="message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-danger">Submit</button>
-      </form>
-      </div>
-      </div>
+        </div>
+      </section>
 
 
-</section>
+
 
 
 

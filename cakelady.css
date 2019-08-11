@@ -16,14 +16,18 @@ body {
 	line-height: 2;
 }
 
+.blurbBox {
+	/* background: #68dde8; */
+	background: white;
+}
+
 .content {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
 .contentGallery {
-	margin-top: 10px;
-	margin-bottom: 5px;
+	margin: 20px;
 }
 
 .galleryBox {

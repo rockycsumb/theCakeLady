@@ -21,6 +21,16 @@ body {
 	margin-bottom: 100px;
 }
 
+.contentGallery {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.galleryBox {
+	/* border: 4px dashed red; */
+	padding: 10px;
+}
+
 #mainNavbar .navbar-brand {
 	color:#EA1C2C;
 	font-size: 1.5rem;
